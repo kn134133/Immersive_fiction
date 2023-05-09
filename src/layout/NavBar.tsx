@@ -30,7 +30,7 @@ export default async function NavBar({ locale }: { locale: string }) {
       url: `/`,
     },
     {
-      title: "ChatApp",
+      title: "",
       url: `/chatgpt/`,
     },
   ];
