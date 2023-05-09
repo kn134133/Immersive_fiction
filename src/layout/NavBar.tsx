@@ -30,8 +30,8 @@ export default async function NavBar({ locale }: { locale: string }) {
       url: `/`,
     },
     {
-      title: "",
-      url: `/chatgpt/`,
+      title: "剧本杀",
+      url: `//`,
     },
   ];
 
@@ -45,7 +45,7 @@ export default async function NavBar({ locale }: { locale: string }) {
     >
       <Flex>
         <Heading size="md" mr={4}>
-          <Link href={"/"}>ChatVisualNovel</Link>
+          <Link href={"/"}>immersive-novel</Link>
         </Heading>
         <Flex align="center" display={{ md: "flex", base: "none" }}>
           {NavList.map((nav: any) => {
@@ -94,7 +94,7 @@ export default async function NavBar({ locale }: { locale: string }) {
         href={GITHUB_URL}
         isExternal
       >
-        GitHub <ExternalLinkIcon mx="2px" />
+         <ExternalLinkIcon mx="2px" />
       </NavLink>
       <Menu>
         <MenuButton
