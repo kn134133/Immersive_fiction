@@ -21,11 +21,11 @@ export default function RootLayout({ params, children }: RootLayoutProps) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
         <title>
-          ChatVisualNovel - An endless visual novel powered by ChatGPT.
+          immersive-fiction
         </title>
         <meta
           name="description"
-          content="ChatVisualNovel - An endless visual novel powered by ChatGPT."
+          content=""
         />
         <meta
           name="keywords"
