@@ -45,7 +45,7 @@ export default async function NavBar({ locale }: { locale: string }) {
     >
       <Flex>
         <Heading size="md" mr={4}>
-          <Link href={"/"}>immersive-novel</Link>
+          <Link href={"/"}>Immersive_fiction</Link>
         </Heading>
         <Flex align="center" display={{ md: "flex", base: "none" }}>
           {NavList.map((nav: any) => {
@@ -91,7 +91,7 @@ export default async function NavBar({ locale }: { locale: string }) {
       <LocaleSwitcher locale={locale} />
       <NavLink
         display={{ md: "block", base: "none" }}
-        href={GITHUB_URL}
+        href=''
         isExternal
       >
          <ExternalLinkIcon mx="2px" />
